@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+  table {
+    width: 80%;
+    /* weboldal szélessége */
+    background-color: green;
+    color: white; /* betüszín */
+    font-family: 'Courier New', Courier, monospace; /* betütípus */
+    font-size: 25px;
+  }
+
+  th {
+    background-color: blue;
+  }
