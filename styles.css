@@ -3,7 +3,7 @@ table, th, td {
     border-collapse: collapse;
   }
   table {
-    width: 80%;
+    width:40%;
     /* weboldal szélessége */
     background-color: green;
     color: white; /* betüszín */
@@ -12,5 +12,13 @@ table, th, td {
   }
 
   th {
-    background-color: blue;
+    background-color: rgb(31, 31, 126);
   }
+
+  #keses{
+    background-color: red;
+  }
+  .paratlan_sor{
+    background-color: rgb(44, 87, 44);
+  }
+
