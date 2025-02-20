@@ -2,22 +2,14 @@ table, th, td {
     border: 1px solid;
     border-collapse: collapse;
   }
-  table {
-    width:60%;
-    /* weboldal szélessége */
-    background-color: green;
-    color: white; /* betüszín */
-    font-family: 'Courier New', Courier, monospace; /* betütípus */
-    font-size: 25px;
+  tbody tr:nth-child(even) {
+    background-color: rgb(28, 87, 248);
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: rgb(84, 150, 248);
   }
 
   th {
-    background-color: rgb(31, 31, 126);
-  }
-
-  #keses{
-    background-color: red;
-  }
-  .paratlan_sor{
-    background-color: rgb(44, 87, 44);
+    background-color: aqua;
   }
