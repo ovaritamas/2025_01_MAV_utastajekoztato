@@ -3,8 +3,10 @@ table, th, td {
     border-collapse: collapse;
   }
   table {
-    width:60%;
+    width:75%;
+
     /* weboldal szélessége */
+
     background-color: green;
     color: white; /* betüszín */
     font-family: 'Courier New', Courier, monospace; /* betütípus */
@@ -20,5 +22,17 @@ table, th, td {
   }
   .paratlan_sor{
     background-color: rgb(44, 87, 44);
+  }
+
+  body{
+    background-color: rgb(0, 0, 0);
+  }
+
+  tr :hover {
+    background-color: rgb(31, 10, 30);
+  }
+
+  th :hover {
+    background-color: rgb(31, 10, 30);
   }
 

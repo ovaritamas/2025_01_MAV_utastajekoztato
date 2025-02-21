@@ -6,15 +6,15 @@ table, th, td {
   /* minden 2.sor színe */
   
   tbody tr:nth-child(odd) {
-    background-color: rgb(50, 82, 168);
+    background-color: rgb(1, 119, 1);
   }
 
   tbody tr:nth-child(even) {
-    background-color: rgb(13, 47, 98);
+    background-color: rgb(6, 87, 4);
   }
 
   th {
-    background-color: rgb(13, 47, 98);
+    background-color: rgb(6, 87, 4);
   }
 
   /* tag-ek színe */
