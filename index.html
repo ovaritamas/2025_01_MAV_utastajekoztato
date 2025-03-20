@@ -70,7 +70,16 @@
             </tr>
         </tbody>
     </table>
+    <div class="pluszinfo">
+        <p>Mai névnap:  <span id="nevnap"></span></p>
+    </div>
 
     <a href="indulo_vonatok.html" id="valtas">Érkező vonatok</a>
+    <!-- CDN example (unpkg) -->
+    <script src="https://unpkg.com/nevnap@latest"></script>
+
+    <script>
+        document.getElementById('nevnap').textContent = nevnap.today();
+    </script>
 </body>
 </html>

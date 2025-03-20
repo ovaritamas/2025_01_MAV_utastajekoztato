@@ -81,3 +81,14 @@ table, th, td {
   tr {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
+  html, body {
+    height: 100%; /* Biztosítja, hogy a body és html elem is kitöltse a teljes képernyőt */
+    margin: 0; /* Eltávolítja az alapértelmezett margót */
+  }
+  
+  body {
+    background-image: url('https://csodalatosbalaton.hu/wp-content/uploads/2019/04/Balaton-Vasut-Mav-Fonyod-Badacsony-Vonatmenetrend-CsodalatosBalaton.jpg');
+    background-size: cover; /* A háttérkép kitölti a teljes képernyőt */
+    background-position: center; /* A kép középre van igazítva */
+    background-repeat: no-repeat; /* A kép nem ismétlődik */
+  }
