@@ -70,6 +70,16 @@
             </tr>
         </tbody>
     </table>
+    <div class="pluszinfo">
+        <h1 id="nevnap">Egyéb fontos infó, itt van az, hogy mely névnaposok fogják lekésni a bulit.</h1>
+        <p>Mai névnap:  <span id="nevnap"></span></p>
+    </div>
+
+    <script src="https://unpkg.com/nevnap@latest"></script>
+
+    <script>
+        document.getElementById('nevnap').textContent = nevnap.today();
+    </script>
 
     <a href="index.html" id="valtas">Érkező vonatok</a>
 </body>
