@@ -9,5 +9,14 @@ Mutassa az aktuális névnapot.📅
 
 Mutasson a Balatonról egy lélegzetelállító tájképet.🌅
 
+### Amennyiben kérdése van:❓
+
+Ne habozzon, hívja telefonos ügyfélszolgálatunkat.
+Tel.:+36 (1) 3 49 49 49
+
+### Amennyiben az utastájékoztatást szeretné elérni:🔗
+
+
+
 
 
